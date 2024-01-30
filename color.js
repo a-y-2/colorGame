@@ -101,7 +101,7 @@ function generaterandomcolors(num){
 	var arr=[]
 	//repeat num times
 	for(var i=0;i<num;i++){
-		//generate random color and push into arr
+		//generate random color and push into array
 		arr.push(randomcolor());	
 
 	}
