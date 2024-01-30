@@ -70,7 +70,7 @@ for(var i=0;i<squares.length;i++){
 	 	var clickedcolor=this.style.background;
 		if(clickedcolor===pickedcolor){
 	 		messagedisplay.textContent="correct :)"
-	 		resetbutton.textContent="to play again click here";
+	 		resetbutton.textContent="to play please again click here";
 	 		changecolors(clickedcolor);
 	 		h1.style.background=clickedcolor;
 		}
